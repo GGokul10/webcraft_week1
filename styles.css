@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+:root {
+    --primary-color: #424949;
+}
+
+body {
+    background-color: var(--primary-color);
+}
+
+.home-bar {
+    display: flex;
+    margin: 1vw;
+    padding: 1vw;
+    font-family: "Poppins", sans-serif;
+    background: black;
+    border-radius: 10px;
+}
+
+.home-bar a {
+    text-decoration: none;
+    color: #d6d0cf;
+    font-weight: bold;
+    padding: 1vw 4vw;
+    border-radius: 4px;
+    transition: background 0.1s, color 0.1s;
+}
+
+.home-bar a:hover {
+    background: #737070;
+    color: #F1F6FE;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 30px;
+    padding: 30px;
+    gap: 30px;
+    background: black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-back {
+    color: antiquewhite;
+    max-width: 300px;
+    max-height: 400px;
+    margin:0.5vw;
+    padding:1vw;
+}
+
+.card-back:hover {
+    background: #737070;
+    box-shadow: black;
+    transform: translateY(-5px) scale(1.05);
+    border-radius: 5px;
+    /* box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18); */
+}
+
+/* .card-back h2:hover{
+    background:#737070;
+    box-shadow: black;
+}
+.card-back img:hover{
+    background:#737070;
+    box-shadow: black;
+} */
+
+.title a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background 0.1s, color 0.1s;
+}
+
+
+.footer-note {
+    text-align: center;
+    font-size: 14px;
+    color: grey;
+    margin-top: 40px;
+    padding: 20px ;
+}
