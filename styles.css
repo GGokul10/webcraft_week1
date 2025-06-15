@@ -69,7 +69,6 @@ body {
     box-shadow: black;
     transform: translateY(-5px) scale(1.05);
     border-radius: 5px;
-    /* box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18); */
 }
 
 /* .card-back h2:hover{
